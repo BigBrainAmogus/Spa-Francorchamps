@@ -1,4 +1,7 @@
 /* CSS Document */
+
+/*General*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -13,6 +16,14 @@ hr.one{
 	opacity: 100%;
 }
 
+hr.two{
+	border: none;
+	border-radius: 10px;
+	height: 2px;
+	background: rgba(62,62,62,1.00);
+	opacity: 100%;
+}
+
 .btn{
 	background-color: rgb(140,140,130) !important;
 }
@@ -22,10 +33,22 @@ hr.one{
 	color: white !important;
 }
 
+.gen-h1{
+	font-size: 64px;
+	font-weight: bolder;
+	
+}
+
+.gen-h2{
+	font-size: 32px;
+	font-weight: 600;	
+}
+
+/*index header & nav*/
+
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(91,91,91,0.7),rgba(138,138,138,0.7)), url(../img/banner2.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -99,8 +122,34 @@ nav img{
 
 /* Body */
 
+.track-top{
+	padding: 30px;
+}
+
+.track-img{
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.track-body{
+	padding: 30px;	
+}
+
+.track-body-img-right{
+	border-radius: 0 30px 30px 0;
+	width: 100%;
+	height: auto;
+}
+
+.track-body-img-left{
+	border-radius: 30px 0 0 30px;
+	width: 100%;
+	height: auto;
+}
 
 /* Footer */
+
 .footer-form{
 	text-align: left;
 	padding: 50px;
@@ -113,4 +162,71 @@ nav img{
 
 .footer-start{
 	
+}
+
+.footer-box{
+	height: 30px;
+	background-color: rgba(100,100,100,1.00);
+}
+
+.footer-row{
+	padding-top: 50px;
+}
+
+.footer-row-header{
+	font-size: 32px;
+	font-weight: 400;
+	color: #fff;
+	text-align: left;
+}
+
+.form-label{
+	text-align: left;
+}
+
+.footer-outer{
+	width: 100%;
+}
+
+.footer-logo{
+	width: 100%;
+	height: auto;	
+}
+
+.testO{
+	background-color: #fff;
+}
+
+.footer-image{
+	width: 100%;
+	height: auto;
+	text-align: left;
+}
+
+.footer-map{
+	width: 100%;
+	border-radius: 4px;	
+}
+
+.footer-text-ugh{
+	font-size: 16px;
+}
+
+.footer-links a{
+	text-decoration: none;
+	color: #fff;
+	size: 24px;
+	font-weight: 600;
+}
+
+.footer-links a:hover{
+	text-decoration: none;
+	color: rgb(236,28,41,1);
+	size: 24px;
+	font-weight: 600;
+}
+
+.footer-footer{
+	padding: 20px;
+	background-color: rgba(236,28,41,1);
 }
